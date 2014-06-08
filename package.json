@@ -1,0 +1,25 @@
+{
+  "name": "foodaemon",
+  "version": "15.0.0",
+  "description": "foo daemon - foo as a service",
+  "main": "index.js",
+  "bin": {
+    "food": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannycoates/food.git"
+  },
+  "keywords": [
+    "foo"
+  ],
+  "author": "Danny Coates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannycoates/food/issues"
+  },
+  "homepage": "https://github.com/dannycoates/food"
+}
